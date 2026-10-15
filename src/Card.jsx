@@ -5,9 +5,8 @@ function Card ({name, attack, type}){
       <p>{name}</p>
       <p>{attack}</p>
       <p>{type}</p>
-
       {name >= 5 && <span>Fofinho</span>}
-
+      {attack >= 6 && <span>forte</span>}
         </li>
     );
 }
